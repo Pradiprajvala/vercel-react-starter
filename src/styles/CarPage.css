@@ -1,0 +1,150 @@
+.carPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.carPage__carContainer{
+    margin: 32px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageContainer {
+    margin-right: 32px;
+    max-width: 50vw;
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    
+}
+
+.imageContainer > img {
+    width: 100%;
+    
+    border-radius: 10px;
+
+}
+
+
+
+.grid_item {
+    background: white;
+}
+
+.carContainer {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+
+.carInfo {
+    display: flex;
+    flex-direction: column;
+    max-width: 492px;
+    flex: 0.5;
+    height: auto;
+    background: white;
+    padding: 16px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.carInfo > h5 {
+    color: #3D5278;
+    margin: 16px 0px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.carInfoHeader {
+  
+    display: flex;
+    width: 100%;
+  
+}
+
+.carInfoHeader > h5 {
+    color: #1A202C;
+        font-weight: 700;
+        align-self: flex-start;
+        font-size: 32px;
+}
+
+.carInfoHeader > h4 {
+    margin-left: 8px;
+    font-weight: 700;
+    color: #90A3BF;
+    font-size: 22px;
+    align-self: center;
+}
+
+.carInfoHeaderFavIcon {
+    align-self: center;
+    margin-left: auto;
+}
+
+.carInfoHeaderFavIcon:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.grid {
+    margin: 16px 0px;
+    margin: 0px 12px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 16px;
+    justify-items: space-between;
+}
+
+.gridItem {
+    color: #90A3BF;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+
+}
+
+.gridItem > p {
+    color: #3D5278;
+    font-weight: 700;
+    margin-left: auto;
+} 
+
+.carInfoFooter {
+    margin-top: 16px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carInfoFooter > button {
+    border: none;
+    padding: 0px 16px;
+    font-size: 16px;
+    color: white;
+    background-color: #3563E9;
+    height: 44px;
+    border-radius: 20px;
+    margin-left: 16px;
+}
+
+.carInfoFooter>button:hover {
+    scale: 1.1;
+    box-shadow: rgba(39, 119, 199, 0.25) 0px 6px 24px;
+    transition: 150ms ease-in-out;
+    cursor: pointer;
+}
+
+.cb__footerPrice > h4 {
+    font-size: 24px;
+}
+.cb__footerPrice> p {
+    font-size: 20px;
+}
+
+
+

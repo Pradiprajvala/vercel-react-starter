@@ -1,0 +1,144 @@
+.singleRequest {
+    display: flex;
+    background: white;
+    margin: 8px 0px;
+    align-items: center;
+    border: 1px solid #90a3bf5d;
+    padding: 8px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.singleRequest > p {
+    margin-left: auto;
+    margin-right: 16px;
+    font-size: 16px;
+    color: #3563E9;
+    font-weight: 500;
+    font-style: italic;
+}
+.acceptButtonByMe,
+.acceptButton {
+    border: none;
+        padding: 0px 16px;
+        font-size: 16px;
+        /* margin-left: auto; */
+        margin-right: 8px;
+        color: white;
+        background-color: #3563E9;
+        height: 30px;
+        border-radius: 20px;
+}
+
+.acceptButtonByMe {
+    background-color: #3562e9d4;
+}
+
+.singleRequest:hover {
+    scale: 1.005;
+    border-color: #1a202c72;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+.acceptButton:hover{
+    scale: 1.05;
+    cursor: pointer;
+    
+    box-shadow: rgba(39, 119, 199, 0.25) 0px 6px 24px;
+ 
+}
+
+
+
+.avatar {
+    margin-right: 8px;
+}
+
+.sr__middleHeader {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 1px;
+    color: #90A3BF;
+}
+
+.sr__middleHeader > h4 {
+    font-size: 20px;
+    
+        color: #3D5278;
+        margin-right: 8px;
+}
+
+
+.sr__middleHeader > h5 {
+    margin-left: 8px;
+    font-size: 18px;
+    color: #3D5278;
+    
+}
+
+.singleRequestMiddle {
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sr__middleFooter {
+    margin-top: 1px;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    font-weight: 600;
+    color: #90A3BF;
+}
+
+.sr__middleFooter > h4 {
+    color: #1A202C;
+    font-weight: 700;
+    margin: 0px 8px;
+    font-size: 16px;
+}
+
+.sr__rightPrice {
+    /* margin-left: auto; */
+    margin-right: 16px;
+}
+
+
+.sr__rightPrice > h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #1A202C;
+    margin-right: 4px;
+
+}
+
+.avatar {
+    margin: 0px 16px;
+    height: 44px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.acceptedButton {
+    border: none;
+        padding: 0px 16px;
+        font-size: 16px;
+        color: white;
+        background-color: gray;
+        height: 30px;
+        border-radius: 20px;
+}
+
+.viewCar {
+    
+    margin-right: 16px;
+    font-size: 16px;
+    color: #3563E9;
+    font-weight: 500;
+    font-style: italic;
+}
