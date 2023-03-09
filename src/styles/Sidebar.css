@@ -1,0 +1,88 @@
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar__container{
+    margin-left: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 18px;
+    margin-bottom: 20px;
+} 
+
+.sidebar__container > h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3D5278;
+
+}
+.slider {
+    
+    width: 90%;
+}
+
+.sidebar {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+     width: 25vw; 
+    height: auto;
+    bottom: 0px;
+     max-width: 280px; 
+    width: 25vw;
+    min-width: 220px;
+    padding-top: 20px;
+    top: 0px;
+    overflow: scroll
+}
+.sidebar__container > p {
+    color: #90A3BF;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    line-height: 18px;
+    margin-bottom: 28px;
+    letter-spacing: 2px;
+}
+
+.sidecar__carCatagory{
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    transition: 200ms;
+}
+
+.postCarLink{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 14px;
+    font-size: 16px; 
+    align-self: center;
+    color: white;
+    background-color: #3D5278;
+    margin-bottom: 20px;
+    border-radius: 14px;
+}
+
+.sidecar__carCatagoryIcon:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.sidecar__carCatagory > h4 {
+   color: #3D5278;
+   font-weight: 600;
+   margin-left: 8px;
+   font-size: 20px;
+   line-height: 150%;   
+}
+
+.sidecar__carCatagory > p {
+    margin-left: 6px;
+    font-size: 20px;
+    color: #90A3BF;
+}
